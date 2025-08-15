@@ -11,3 +11,8 @@
   margin-top: 60px;
   border-radius: 10px;
 }
+.hire-button{
+  font-weight: bold;
+  color: rgb(254, 228, 214);
+  background-color: orange;
+}

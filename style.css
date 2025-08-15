@@ -1,3 +1,13 @@
+    *{
+      font-family: "Alfa Slab One", serif;
+    }
+    
+    .alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .body{
   background-color: rgb(253, 161, 161);
 }
@@ -14,5 +24,26 @@
 .hire-button{
   font-weight: bold;
   color: rgb(254, 228, 214);
-  background-color: orange;
+  background-color: rgb(251, 103, 11);
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.work-button{
+  font-weight: bold;
+  color: rgb(251, 103, 11);
+  background-color: rgb(254, 228, 214);
+  border: 2px solid  rgb(251, 103, 11);
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.button-div{
+  align-items: center;
+  vertical-align: middle;
 }

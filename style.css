@@ -1,3 +1,13 @@
 .body{
   background-color: rgb(253, 161, 161);
 }
+
+.inner-box{
+  display: flex;
+  background-color: rgb(254, 228, 214);
+  height: 600px;
+  width: 1350px;
+  margin-left: 85px;
+  margin-top: 60px;
+  border-radius: 10px;
+}

@@ -1,5 +1,6 @@
     *{
       font-family: "Alfa Slab One", serif;
+      
     }
     
     .alfa-slab-one-regular {
@@ -48,4 +49,13 @@
   vertical-align: middle;
   margin-top: 300px;
 
+}
+.cats-img{
+  height: 200px;
+
+}
+.cat-div{
+  vertical-align: bottom;
+  align-items: ;
+  margin-top: 400px;
 }

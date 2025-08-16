@@ -1,27 +1,62 @@
-    *{
-      font-family: "Alfa Slab One", serif;
-      
-    }
-    
-    .alfa-slab-one-regular {
-  font-family: "Alfa Slab One", serif;
-  font-weight: 400;
-  font-style: normal;
+/* Reset to apply globally with Baloo 2 */
+* {
+  font-family: "Baloo 2", cursive;
 }
+
+/* Alternate style with Fredoka (less bubbly, clean puffy) */
+.puffy-text {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+  color: #ff5cab;
+  text-shadow: 2px 3px 6px rgba(0,0,0,0.25);
+}
+
+body{
+  align-items: center;
+  display: flex;
+
+}
+
 
 .body{
   background-color: rgb(253, 161, 161);
 }
 
 .inner-box{
+  height: 20vh;
   display: flex;
   background-color: rgb(254, 228, 214);
+  align-items: center;
+  justify-items: center;
   height: 600px;
   width: 1350px;
   margin-left: 85px;
   margin-top: 60px;
   border-radius: 10px;
+  flex-direction: column;
+  margin: 60px auto;
+  position: relative;
+  
+
 }
+
+h1{
+margin-top: 40px;
+margin-bottom: 0px;
+font-size: 100px;
+color: #5d3848;
+justify-content: center;
+text-align: center;
+}
+
+p{
+font-size: 30px;
+justify-content: center;
+text-align: center;
+}
+
 .hire-button{
   font-weight: bold;
   color: rgb(254, 228, 214);
@@ -47,7 +82,7 @@
 .button-div{
   align-items: center;
   vertical-align: middle;
-  margin-top: 300px;
+  margin-top: 00px;
 
 }
 .cats-img{
@@ -56,9 +91,11 @@
 
 }
 .cat-div{
+  display: flex;
   vertical-align: bottom;
-  align-items: ;
-  margin-top: 407px;
-  margin-left: 0px;
+  align-items: center;
+  margin-top: 400px;
+  margin-left: 1000px;
   margin-right: 1000px;
+  position: absolute;
 }

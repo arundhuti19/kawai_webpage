@@ -147,3 +147,13 @@ color: rgb(243, 66, 96);
   margin-right: 1000px;
   position: absolute;
 }
+
+@keyframes jump {
+  0%   { transform: translateY(100); }
+  50%  { transform: translateY(-300px); }
+  100% { transform: translateY(100px); }
+}
+
+.jump-effect {
+  animation: jump 0.4s ease;
+}

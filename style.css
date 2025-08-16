@@ -89,9 +89,12 @@ color: rgb(243, 66, 96);
 
 }
 .cats-img{
-  height: 200px;
+  height: 185px;
   margin-left: 0px;
 
+}
+.cats-img:hover{
+  height: 200px;
 }
 .cat-div{
   display: flex;

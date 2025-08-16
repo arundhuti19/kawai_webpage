@@ -43,7 +43,7 @@ body{
 }
 
 h1{
-margin-top: 40px;
+margin-top: 50px;
 margin-bottom: 0px;
 font-size: 100px;
 color:  rgb(243, 66, 96);
@@ -52,6 +52,7 @@ text-align: center;
 }
 
 p{
+margin-top: 0px;
 font-size: 30px;
 justify-content: center;
 text-align: center;
@@ -68,6 +69,8 @@ color: rgb(243, 66, 96);
   padding-left: 25px;
   padding-right: 25px;
   transition: opacity, 0.15s;
+  font-size: 18px;
+  margin-right: 8px;
 
 }
 .work-button{
@@ -80,6 +83,7 @@ color: rgb(243, 66, 96);
   padding-left: 23px;
   padding-right: 23px;
   transition: background-color, 0.15s, color, 0.15s, opacity, 0.15s, border-color, 0.15s;
+  font-size: 18px;
 }
 
 .button-div{

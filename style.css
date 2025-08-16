@@ -59,7 +59,7 @@ text-align: center;
 color: rgb(243, 66, 96);
 }
 
-.hire-button{
+.sing-button{
   font-weight: bold;
   color: rgb(254, 228, 214);
   background-color: rgb(243, 66, 96);
@@ -73,7 +73,7 @@ color: rgb(243, 66, 96);
   margin-right: 8px;
 
 }
-.work-button{
+.jump-button{
   font-weight: bold;
   color:rgb(243, 66, 96);
   background-color: rgb(254, 228, 214);
@@ -84,6 +84,43 @@ color: rgb(243, 66, 96);
   padding-right: 23px;
   transition: background-color, 0.15s, color, 0.15s, opacity, 0.15s, border-color, 0.15s;
   font-size: 18px;
+  margin-right: 8px;
+}
+.meow-button{
+  font-weight: bold;
+  color: rgb(254, 228, 214);
+  background-color: rgb(243, 66, 96);
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: opacity, 0.15s;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.meow-button:hover{
+      opacity: 0.6;
+}
+.meow-button:active{
+   opacity: 0.4;
+}
+.sing-button:hover{
+      opacity: 0.6;
+}
+.sing-button:active{
+   opacity: 0.4;
+}
+.jump-button:hover{
+   background-color:rgb(253, 110, 134);
+   color:  rgb(254, 228, 214);
+   border-color:rgb(253, 110, 134);
+}
+.jump-button:active{
+      opacity: 0.5;
+}
+.sing-button, .jump-button, .meow-button{
+  opacity: 0.7;
 }
 
 .button-div{
@@ -109,21 +146,4 @@ color: rgb(243, 66, 96);
   margin-left: 1000px;
   margin-right: 1000px;
   position: absolute;
-}
-.hire-button:hover{
-      opacity: 0.6;
-}
-.hire-button:active{
-   opacity: 0.4;
-}
-.work-button:hover{
-   background-color:rgb(253, 110, 134);
-   color:  rgb(254, 228, 214);
-   border-color:rgb(253, 110, 134);
-}
-.work-button:active{
-      opacity: 0.5;
-}
-.work-button, .hire-button{
-  opacity: 0.7;
 }

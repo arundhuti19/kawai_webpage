@@ -46,7 +46,7 @@ h1{
 margin-top: 40px;
 margin-bottom: 0px;
 font-size: 100px;
-color: #5d3848;
+color:  rgb(243, 66, 96);
 justify-content: center;
 text-align: center;
 }
@@ -55,28 +55,31 @@ p{
 font-size: 30px;
 justify-content: center;
 text-align: center;
+color: rgb(243, 66, 96);
 }
 
 .hire-button{
   font-weight: bold;
   color: rgb(254, 228, 214);
-  background-color: rgb(251, 103, 11);
+  background-color: rgb(243, 66, 96);
   border: none;
   border-radius: 10px;
   height: 40px;
   padding-left: 25px;
   padding-right: 25px;
+  transition: opacity, 0.15s;
 
 }
 .work-button{
   font-weight: bold;
-  color: rgb(251, 103, 11);
+  color:rgb(243, 66, 96);
   background-color: rgb(254, 228, 214);
-  border: 2px solid  rgb(251, 103, 11);
+  border: 2px solid rgb(243, 66, 96);
   border-radius: 10px;
   height: 40px;
   padding-left: 23px;
   padding-right: 23px;
+  transition: background-color, 0.15s, color, 0.15s, opacity, 0.15s, border-color, 0.15s;
 }
 
 .button-div{
@@ -98,4 +101,21 @@ text-align: center;
   margin-left: 1000px;
   margin-right: 1000px;
   position: absolute;
+}
+.hire-button:hover{
+      opacity: 0.6;
+}
+.hire-button:active{
+   opacity: 0.4;
+}
+.work-button:hover{
+   background-color:rgb(253, 110, 134);
+   color:  rgb(254, 228, 214);
+   border-color:rgb(253, 110, 134);
+}
+.work-button:active{
+      opacity: 0.5;
+}
+.work-button, .hire-button{
+  opacity: 0.7;
 }

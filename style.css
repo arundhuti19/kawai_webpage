@@ -91,6 +91,7 @@ color: rgb(243, 66, 96);
 .cats-img{
   height: 185px;
   margin-left: 0px;
+  transition: height, 0.15s;
 
 }
 .cats-img:hover{
